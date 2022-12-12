@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="608.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control">
+   <children>
+      <Label layoutX="244.0" layoutY="14.0" text="Flights">
+         <font>
+            <Font name="Times New Roman" size="40.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tableFlights" layoutX="7.0" layoutY="187.0" prefHeight="200.0" prefWidth="585.0">
+        <columns>
+          <TableColumn fx:id="cln_Id" prefWidth="75.0" text="ID" />
+            <TableColumn fx:id="cln_DateD" prefWidth="96.0" text="Departure Date" />
+            <TableColumn fx:id="cln_DateA" prefWidth="95.0" text="Arrival Date" />
+            <TableColumn fx:id="cln_Price" prefWidth="71.0" text="Base Price" />
+            <TableColumn fx:id="cln_Airplane" prefWidth="83.0" text="Airplane" />
+            <TableColumn fx:id="cln_AirportD" prefWidth="83.0" text="Airport Departure" />
+          <TableColumn fx:id="cln_AirportA" prefWidth="81.0" text="Airport Arrival" />
+        </columns>
+      </TableView>
+      <TextField fx:id="basePrice" layoutX="224.0" layoutY="83.0" promptText="Base Price" />
+      <TextField fx:id="airplaneName" layoutX="224.0" layoutY="131.0" promptText="Airplane Name" />
+      <TextField fx:id="airportDeparture" layoutX="433.0" layoutY="84.0" promptText="Airport Departure" />
+      <TextField fx:id="airportArrival" layoutX="433.0" layoutY="131.0" promptText="Aiport Arrival" />
+      <TextField fx:id="idFlight" layoutX="25.0" layoutY="37.0" promptText="Id flight" />
+      <DatePicker fx:id="arrivalDate" layoutX="25.0" layoutY="131.0" prefHeight="26.0" prefWidth="160.0" promptText="Arrival Date" />
+      <DatePicker fx:id="departureDate" layoutX="25.0" layoutY="84.0" prefHeight="26.0" prefWidth="160.0" promptText="Departure Date" />
+      <Button layoutX="457.0" layoutY="21.0" mnemonicParsing="false" onAction="#btnClickedCreateFlight" prefHeight="33.0" prefWidth="112.0" text="Create">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

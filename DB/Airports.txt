@@ -1,0 +1,8 @@
+Charles de Gaulle,CDG,75000
+Aeroport Nantes-Atlantique,NTE,44000
+Aero Toulouse,TLS,25000
+Aero Marseille,MRS,12000
+Aero Nice-Cote-d'Azur,NCE,06100
+Aero Lyon-Saint-Exupéry,LYS,69125
+Aero Bordeaux-Mérignac,BOD,30072
+Toulon-Hyères,TLN,83000

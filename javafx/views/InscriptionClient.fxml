@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Control">
+   <children>
+      <Label layoutX="207.0" layoutY="39.0" text="Inscription">
+         <font>
+            <Font name="Times New Roman Bold" size="40.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstNameClient" layoutX="30.0" layoutY="174.0" prefHeight="35.0" prefWidth="205.0" />
+      <TextField fx:id="lastNameClient" layoutX="30.0" layoutY="263.0" prefHeight="35.0" prefWidth="205.0" />
+      <TextField fx:id="phoneClient" layoutX="30.0" layoutY="349.0" prefHeight="35.0" prefWidth="205.0" />
+      <TextField fx:id="idUser" layoutX="365.0" layoutY="174.0" prefHeight="35.0" prefWidth="205.0" />
+      <TextField fx:id="emailClient" layoutX="30.0" layoutY="430.0" prefHeight="35.0" prefWidth="205.0" />
+      <Button layoutX="212.0" layoutY="506.0" mnemonicParsing="false" onAction="#btnClickedInscription" prefHeight="35.0" prefWidth="179.0" text="Validate">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Button>
+      <Label layoutX="33.0" layoutY="141.0" text="First Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="229.0" text="Last Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="321.0" text="Phone">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="30.0" layoutY="401.0" text="Email">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="365.0" layoutY="141.0" text="Iditifiant User">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="365.0" layoutY="229.0" text="Birth Date">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="365.0" layoutY="321.0" text="Inscsription Date">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="birthClient" layoutX="354.0" layoutY="268.0" />
+   </children>
+</AnchorPane>
